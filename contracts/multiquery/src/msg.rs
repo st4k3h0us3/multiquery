@@ -1,9 +1,8 @@
-use cosmwasm_std::{Binary, QueryRequest};
+use cosmwasm_std::{Binary, Empty, QueryRequest};
 use schemars::JsonSchema;
 use serde::{Deserialize, Serialize};
-use terra_cosmwasm::TerraQueryWrapper;
 
-pub type QueryMsg = Vec<QueryRequest<TerraQueryWrapper>>;
+pub type QueryMsg = Vec<QueryRequest<Empty>>;
 
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, JsonSchema)]
 pub struct MultiQueryResponseItem {

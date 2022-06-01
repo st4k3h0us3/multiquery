@@ -1,3 +1,4 @@
+use std::marker::PhantomData;
 use std::str;
 
 use cosmwasm_std::testing::{mock_env, MockApi, MockStorage};
@@ -17,6 +18,7 @@ fn setup_test() -> OwnedDeps<MockStorage, MockApi, CustomQuerier> {
         storage: MockStorage::default(),
         api: MockApi::default(),
         querier: CustomQuerier::new(&[("alice", &[coin(12345, "uluna")])]),
+        custom_query_type: PhantomData,
     };
 
     deps.querier.set_cw20_balance("bob", 69420);
