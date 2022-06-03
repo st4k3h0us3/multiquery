@@ -59,10 +59,11 @@ See [`./scripts/3_query_example.ts`](./scripts/3_query_example.ts) for details.
 
 ## Deployment
 
-| Network    | Address                                                                                                                            |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Columbus-5 | [`terra1swrywzkphty20e2uzpy582xu836luw0e5yp25m`](https://terrasco.pe/mainnet/address/terra1swrywzkphty20e2uzpy582xu836luw0e5yp25m) |
-| Bombay-12  | [`terra1t5twwglq9vlmf0pz8yadmd6gr6es2gfc4fkjww`](https://terrasco.pe/testnet/address/terra1t5twwglq9vlmf0pz8yadmd6gr6es2gfc4fkjww) |
+| Network    | Address                                                                                                                                                                           |
+|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| pisco-1    | [`terra1mgrye4409qt9yen33rrwnj06eau56kh96ajjr2fcxvcc4etawp9qhsgf8f`](https://finder.terra.money/testnet/address/terra1mgrye4409qt9yen33rrwnj06eau56kh96ajjr2fcxvcc4etawp9qhsgf8f) |
+| Columbus-5 | [`terra1swrywzkphty20e2uzpy582xu836luw0e5yp25m`](https://terrasco.pe/mainnet/address/terra1swrywzkphty20e2uzpy582xu836luw0e5yp25m)                                                |
+| Bombay-12  | [`terra1t5twwglq9vlmf0pz8yadmd6gr6es2gfc4fkjww`](https://terrasco.pe/testnet/address/terra1t5twwglq9vlmf0pz8yadmd6gr6es2gfc4fkjww)                                                |
 
 ## License
 

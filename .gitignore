@@ -32,3 +32,4 @@ artifacts/
 
 # Data and key files
 scripts/keys/
+/notes.txt
